@@ -38,6 +38,7 @@ const chooseAnswer = (event, question) => {
             state.which = !state.which
         }else{
             state.player2++
+            alert("Nice Job!")
             state.which = !state.which
         }
         setBoard(questions)
